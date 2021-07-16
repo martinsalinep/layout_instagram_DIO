@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+}
+
+body {
+  color: rgb(243, 243, 243);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 0 auto;
+  width: 60%;
+  height: 100vh;
+}
+
+.boxPhone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.phoneImg {
+  height: 50rem;
+}
+
+.boxLogin {
+  width: 40%;
+  min-height: 34rem;
+
+}
+
+.continue, .login{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFF;
+  border: 1px solid #dee2e6;
+  padding: 1.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.login{
+  margin: 1.5rem 0;
+  min-height: 10vh;
+}
+
+.instagramLogo {
+  max-width: 15rem;
+}
+
+.imgProfile {
+  height: 10rem;
+  border-radius: 50%;
+}
+
+.textNotPerson {
+  color: #343a40;
+}
+
+.buttonContinue{
+  padding: 0.5rem;
+  border: 1px solid #0095f6;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #0095f6;
+  margin-top: 1.5rem;
+}
+
+.boldText {
+  font-weight: bolder;
+  color: #0095f6;
+  text-align: center;
+  padding: 2px;
+  margin-top: 1rem;
+}
+
+.boxStore {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.downloadButton {
+  max-width: 8rem;
+}
+
+
+@media (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  .container {
+    width: 90%;
+  }
+  .boxPhone {
+    display: none;
+  }
+  
+  .boxLogin{
+    width: 100%;
+  }
+}
+
